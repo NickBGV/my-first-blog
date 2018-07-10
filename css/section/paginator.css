@@ -1,6 +1,7 @@
 .switcher {
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .switcher__paginator {
