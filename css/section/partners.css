@@ -26,7 +26,7 @@
   cursor: pointer;
   display: block;
   opacity: 0.5;
-  background: url(/img/partners/partners.png) 0 0 no-repeat;
+  background: url(../../img/partners/partners.png) 0 0 no-repeat;
   filter: grayscale(100);
   transition: filter 0.5s ease-in-out 0s, opacity 0.5s ease-in-out 0s;
 }

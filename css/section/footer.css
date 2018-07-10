@@ -47,7 +47,7 @@ footer {
   height: 20px;
   display: block;
   border-radius: 50%;
-  background: url(/img/links/socials.png) 0 0 no-repeat #d2def3;
+  background: url(../../img/links/socials.png) 0 0 no-repeat #d2def3;
   transition: background-color 0.5s ease-in-out 0s;
 }
 .socials__link--vk  {
