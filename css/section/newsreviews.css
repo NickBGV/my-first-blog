@@ -36,7 +36,7 @@ h3.section-title {
   height: 160px;
   border-radius: 50%;
 }
- .reviews__info, .news__info {
+ .reviews__cont, .news__cont {
   width: 650px;
   font-size: 15px;
 }
