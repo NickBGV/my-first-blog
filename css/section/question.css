@@ -1,9 +1,10 @@
+
 .question {
-  background: url(/img/reviews/adv.png);
+  background: url(/img/reviews/Rectangle\ 1.png);
   margin-bottom: 60px;
 }
 .container--ques{
-  min-height: 170px;
+  min-height: 175px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,15 +16,7 @@
   font-weight: lighter;
   line-height: 1.7;
 }
-.question__link {
+.question__b {
   font-weight: bold;
-  color: #fff;
-}
-.question__phone {
-  color: #fff;
-  font-weight: bold;
-  text-decoration: none;
-}
-.question__phone:hover {
-  text-decoration: underline;
+  color: #ec1e79;
 }

@@ -9,7 +9,23 @@
 .switcher__pages {
   display: flex;
 }
-
+.switcher__pages:before {
+  cursor: pointer;
+  opacity: .3;
+  content: '';
+  margin-right: 5px;
+  width: 15px;
+  height: 15px;
+  background: url(/img/links/back.png) center center no-repeat;
+}
+.switcher__pages:after {
+  cursor: pointer;
+  content: '';
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+  background: url(/img/links/next.png) center center no-repeat;
+}
 .switcher__display {
   font-size: 14px;
   margin-right: 10px;
