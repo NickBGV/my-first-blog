@@ -1,0 +1,29 @@
+.question {
+  background: url(/img/reviews/adv.png);
+  margin-bottom: 60px;
+}
+.container--ques{
+  min-height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.question__text {
+  color: #fff;
+  width: 620px;
+  font-size: 17px;
+  font-weight: lighter;
+  line-height: 1.7;
+}
+.question__link {
+  font-weight: bold;
+  color: #fff;
+}
+.question__phone {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.question__phone:hover {
+  text-decoration: underline;
+}
