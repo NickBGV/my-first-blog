@@ -1,5 +1,5 @@
 footer {
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 11px;
   background-color: #27273e;
 }
@@ -17,10 +17,15 @@ footer {
   justify-content: flex-end;
 }
 
+.footer__logo{
+margin-top: 5px;
+}
+
 .copyright {
-  width: 233px;
+  width: 270px;
   color: white;
   font-size: 14px;
+  line-height: 1.3;
 }
 .copyright__link {
   font-weight: bold;
@@ -71,7 +76,8 @@ background-position: -296px 6px;
 }
 
 .socials__title {
-  font-size: 13px;
+  padding-top: 7px;
+  font-size: 14px;
   font-weight: bold;
   margin-bottom: 8px;
 }

@@ -5,7 +5,7 @@
 .menu__list {
   display: flex;
   flex-direction: column;
-  padding-top: 30px;
+  padding-top: 12px;
 }
 .menu__list--reviews {
 padding-top: 0;
@@ -24,7 +24,7 @@ padding-top: 0;
   cursor: pointer;
   font-size: 12px;
   font-weight: bold;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   display: block;
   background: url(../../img/menu/sidebar_sprite.png) 0 0 no-repeat;
   padding: 4px 0px 0 36px;

@@ -1,7 +1,16 @@
 .switcher {
+  font-family: 'Roboto' serif;
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
+  margin-bottom: 75px;
+  margin-left: 5px;
+}
+.switcher-reviews {
+  font-family: 'Roboto' serif;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 75px;
+  margin-left: 75px;
 }
 
 .switcher__paginator {
@@ -14,7 +23,7 @@
   cursor: pointer;
   opacity: .3;
   content: '';
-  margin-right: 5px;
+  margin-right: 20px;
   width: 15px;
   height: 15px;
   background: url(../../img/links/back.png) center center no-repeat;
@@ -28,8 +37,9 @@
   background: url(../../img/links/next.png) center center no-repeat;
 }
 .switcher__display {
+  font-family:'Roboto' serif;
   font-size: 14px;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 .switcher__paginator {
   font-size: 15px;
@@ -56,7 +66,8 @@
   color: black;
 }
 .switcher__link {
-  padding: 2px 8px;
+  padding: 4px 10px;
+  margin-left: -5px;
   transition: color .3s;
 }
 .switcher__link.switcher__page-item--active {

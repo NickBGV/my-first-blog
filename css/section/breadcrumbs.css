@@ -4,6 +4,7 @@
   font-style: italic;
   color: #f172a1;
   margin-bottom: 16px;
+  margin-top: 10px;
 }
 .breadcrumbs__list {
   display: flex;

@@ -17,3 +17,9 @@
   font-weight: 300;
   font-style: italic;
 }
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Regular.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
