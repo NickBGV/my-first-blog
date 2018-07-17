@@ -76,10 +76,11 @@
 margin-top: 9px;
 font-size: 14px;
 line-height: 1.6;
+letter-spacing: 1,5px;
 }
 
 .price__text-bold{
   font-size: 18.02px;
   font-style: bold;
-  line-height: 1.2;
+  line-height: 1.1;
 }
