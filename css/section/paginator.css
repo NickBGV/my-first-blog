@@ -37,10 +37,11 @@
 .switcher__display {
   font-family:'Roboto' serif;
   font-size: 14px;
-  margin-right: 15px;
+  letter-spacing: 0.1px;
+  margin-right: 11px;
 }
 .switcher__paginator {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
 }
 .switcher__pages li > a {
