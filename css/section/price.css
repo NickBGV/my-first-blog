@@ -1,7 +1,7 @@
 
 .price {
-  margin-bottom: 20px;
-  width: 878px;
+  margin-bottom: 10px;
+  width: 870px;
 }
 
 .section-title_prices{
@@ -17,13 +17,13 @@
 }
 
 .price__item {
-  width: 260px;
+  width: 262px;
   border: 1px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-right: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 47px;
 }
 .price__item:nth-child(3n) {
   margin-right: 0;
