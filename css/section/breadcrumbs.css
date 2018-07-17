@@ -1,0 +1,30 @@
+.breadcrumbs {
+  font-size: 14px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #f172a1;
+  margin-bottom: 16px;
+  margin-top: 10px;
+}
+.breadcrumbs__list {
+  display: flex;
+}
+.breadcrumbs__item:after {
+  content: '/';
+  color: #000;
+  margin-right: 2px;
+}
+.breadcrumbs__item:last-child:after {
+  display: none;
+}
+.breadcrumbs__link:visited,
+.breadcrumbs__link:active
+.breadcrumbs__link:focus {
+  color: #ec1e79;
+}
+.breadcrumbs__link.breadcrumbs__link--active {
+  text-decoration: none;
+  color: #4e4c4c;
+  pointer-events: none;
+  cursor: default;
+}

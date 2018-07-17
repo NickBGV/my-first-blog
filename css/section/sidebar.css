@@ -1,0 +1,55 @@
+.sidebar {
+  width: 17%;
+}
+
+.menu__list {
+  display: flex;
+  flex-direction: column;
+  padding-top: 12px;
+}
+.menu__list--reviews {
+padding-top: 0;
+}
+.menu__item {
+  margin-bottom: 26px;
+}
+.menu__item:last-child {
+  margin-bottom: 0;
+}
+.menu__link {
+  width: 23px;
+  height: 23px;
+  text-decoration: none;
+  color: #ec1e79;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: block;
+  background: url(../../img/menu/sidebar_sprite.png) 0 0 no-repeat;
+  padding: 4px 0px 0 36px;
+  transition: color 0.5s ease-in-out 0s, filter 0.5s ease-in-out 0s;
+}
+.menu__link:hover {
+  color: #000;
+}
+.menu__link--main {
+  background-position: -100px 0;
+}
+.menu__link--reviews {
+  background-position: 0 0;
+}
+.menu__link--crew {
+  background-position: -200px 0;
+}
+
+.menu__link--crew:hover,
+.menu__link--reviews:hover,
+.menu__link--main:hover,
+.menu__link--active .menu__link--crew,
+.menu__link--active .menu__link--reviews,
+.menu__link--active .menu__link--main,
+.menu__link--active .menu__link {
+  filter: brightness(0);
+}
+

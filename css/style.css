@@ -1,0 +1,17 @@
+/*layout8*/
+@import url('./layout/normalize.css');
+@import url('./layout/fonts.css');
+@import url('./layout/base.css');
+/*section*/
+@import url('./section/intro.css');
+@import url('./section/header.css');
+@import url('./section/breadcrumbs.css');
+@import url('./section/sidebar.css');
+@import url('./section/main-page.css');
+@import url('./section/reviews.css');
+@import url('./section/question.css');
+@import url('./section/feedbackform.css');
+@import url('./section/price.css');
+@import url('./section/partners.css');
+@import url('./section/paginator.css');
+@import url('./section/footer.css');

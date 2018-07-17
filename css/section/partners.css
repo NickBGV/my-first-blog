@@ -1,0 +1,31 @@
+.page__price {
+  margin-bottom: 38px;
+}
+.partners{
+  width: 840px;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.partners__item {
+  text-align: left;
+  flex-basis: 32.3%;
+  margin-bottom: 55px;
+}
+.partners__avatar {
+  display: flex;
+  justify-content: center;
+  width: 160px;
+  filter: grayscale(1);
+  cursor: pointer;
+  transition: .3s;
+}
+
+.partners__avatar:hover {
+  filter: grayscale(0);
+}
