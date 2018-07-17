@@ -73,13 +73,13 @@
 }
 
 .price__text-light{
-margin-top: 7px;
+margin-top: 9px;
 font-size: 14px;
-line-height: 1.5;
+line-height: 1.6;
 }
 
 .price__text-bold{
   font-size: 18.02px;
   font-style: bold;
-  line-height: 1.1;
+  line-height: 1.2;
 }
