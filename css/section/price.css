@@ -1,7 +1,7 @@
 
 .price {
   margin-bottom: 20px;
-  width: 862px;
+  width: 870px;
 }
 
 .section-title_prices{
@@ -17,7 +17,7 @@
 }
 
 .price__item {
-  width: 30%;
+  width: 260px;
   border: 1px;
   display: flex;
   flex-direction: column;
