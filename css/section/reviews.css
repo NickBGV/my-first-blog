@@ -62,7 +62,7 @@
     opacity: .7;
   }
   .reviews__text{
-    font-style: normal;
     font-size: 18px;
+    font-weight: lighter;
     line-height: 1.7;
   }
