@@ -1,7 +1,7 @@
 
 .price {
   margin-bottom: 30px;
-  width: 870px;
+  width: 860px;
 }
 
 .section-title_prices{
@@ -17,7 +17,7 @@
 }
 
 .price__item {
-  width: 262px;
+  width: 255px;
   border: 1px;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,6 @@
 .price__pic {
   width: 250px;
   height: 153px;
-
 }
 .price__help {
   width: 250px;

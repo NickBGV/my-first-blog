@@ -21,7 +21,6 @@
   display: flex;
   justify-content: center;
   width: 160px;
-  height: 62px:;
   filter: grayscale(1);
   cursor: pointer;
   transition: .3s;
