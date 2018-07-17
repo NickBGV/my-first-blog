@@ -1,27 +1,28 @@
 .page__price {
-  margin-bottom: 30px;
+  margin-bottom: 38px;
 }
 .partners{
-  width: 755px;
+  width: 840px;
   margin-top: -5px;
-}
-
-.partners__list-box{
-  margin-left: -50px;
 }
 
 .partners__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
   text-align: center;
+  align-items: center;
+  margin-top: 5px;
 }
 .partners__item {
-  flex-basis: 33%;
-  margin-bottom: 50px;
+  text-align: left;
+  flex-basis: 32.3%;
+  margin-bottom: 55px;
 }
 .partners__avatar {
+  display: flex;
+  justify-content: center;
+  width: 160px;
+  height: 62px:;
   filter: grayscale(1);
   cursor: pointer;
   transition: .3s;

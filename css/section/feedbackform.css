@@ -1,5 +1,5 @@
 .feedback {
-  margin-bottom: 64px;
+  margin-bottom: 46px;
 }
 .container--feedback {
   display: flex;
@@ -19,7 +19,8 @@
   display: flex;
   flex-wrap: wrap;
   font-size: 14px;
-  font-weight: lighter;
+  font-weight: normal;
+  font-family:'Gotham Pro';
 }
 .feedback__name {
   width: 50%;
@@ -79,14 +80,14 @@
 }
 
 .feedback__ro:checked + .feedback__newro {
-  border-color: #a0235f;
+  border-color: #ec1e79;
 }
 
 .feedback__ro:checked + .feedback__newro:before {
-  background: #a0235f;
+  background: #ec1e79;
 }
 .feedback__ro:checked ~ .feedback__newtt {
-  color: #a0235f;
+  color: #ec1e79;
 }
 
 .feedback__btn {
@@ -95,19 +96,21 @@
   justify-content: flex-end;
 }
 #name, #link, #text {
+  border: 0px;
   border-radius: 3px;
 }
 #text {
   min-width: 560px;
   min-height: 90px;
   resize: none;
-  padding: 5px;
-  border: 1px solid #a0235f;
+  padding-top: 5px;
+  padding-left: 8px;
+  border: 1px solid #ec1e79;
 }
 #name, #link {
   min-width: 270px;
   padding-top: 15px;
-  padding-left: 5px;
+  padding-left: 10px;
   padding-bottom: 15px;
 }
 .feedback__title {
@@ -116,29 +119,30 @@
   margin-bottom: 15px;
 }
 .feedback__title2 {
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 .feedback__name, .feedback__linkvk {
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 #submit {
-  min-width: 150px;
-  background: #a0235f;
+  min-width: 140px;
+  background: #27273e;
   border: 0;
   border-radius: 4px;
   cursor: pointer;
   color: #fff;
-  padding: 15px;
+  padding: 16px;
   text-transform: uppercase;
   position: relative;
-  text-align: left;
+  text-align: center;
   font-weight: bold;
   font-size: 12px;
-  letter-spacing: 3px;
+  letter-spacing: 2.3px;
   transition: background .4s;
   display: inline-block;
+  margin-bottom: 13px;
 }
 #submit:hover {
-  background: #fff;
-  color: #a0235f;
+  background: #ec1e79;
+  color: #fff;
 }

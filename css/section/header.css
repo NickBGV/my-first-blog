@@ -29,6 +29,7 @@ padding-top: 0px;
   font-weight: bold;
   text-align: right;
   font-style: normal;
+  margin-top: 5px;
 }
 .contacts__link {
   transition: color .4s;
